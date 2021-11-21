@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML-CSS-JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="thanh">
+<ul class="bamden">
+    <li><a href="#htmla"><strong>HTML</strong></a></li>
+    <li><a href="#cssa"><strong>CSS</strong></a></li>
+    <li><a href="#jsa"><strong>JavaScript</strong></a></li>
+    <li><a href="#blogera"><strong>Blog tham khảo</strong></a></li>
+</ul>
+</div>
+<section class="html" id="htmla">
+    <header>
+        <h1>HTML</h1>
+    </header>
+    <img src="images/html.png" alt="HTML" height="320px" width="320px">
+    <article class="thanhtml">
+        <p> HTML có tên đầy đủ: HyperText Markup Language (ngôn ngữ đánh dấu siêu văn bản).</p>
+        <ul>
+            <li>HTML là 1 bộ khung của tất cả các trang web.</li>
+            <li>Ngôn ngữ đánh dấu là ngôn ngữ máy xác định cấu trúc và cách trình bày của văn bản thô.</li>
+            <li>Tiêu đề của 1 trang web rất quan trọng nên ta phải tạo nó sao cho thu hút nhất và nổi bật nhất trong đó
+                có 6 tiêu đề => ta cần sử dụng tiêu đề đầu tiên để làm nổi bất nó < h1> tiêu đề 1 < /h1></li>
+            <li>Phần tử đoạn văn vản được tạo ra và nó có cấu trúc: < p>"nội dung"< /p>.</li>
+            <li>Cấu trúc thẻ mở đơn giản trong HTML <br />
+                < body> <br />
+                < p>"nội dung"< /p> <br />
+                < /body> <br />
+            <p>Phần tử < p> là con của phần tử < body> và tương tự phần tử < body> là cha của phần tử < p> và có thể thân
+                    phần tử cháu, chắt, thấp hơn nữa. </p></li>
+            <li>Cung cấp nội dung xuất hiện trong 1 trang web, như hình  ảnh, chữ , video</li>
+            <li>Bao gồm các phần tử các yếu tố này cấu trúc nên 1 trang web xác định nội dung của nó.</li>
+        </ul>
+        <div class="phan1">
+            <h3>1. Phần tử < div></h3>
+            <p>- Là 1 trong những phần tử quan trọng nhất trong HTML. <br />
+               - Thẻ < div> phân chia trang thành các phần, rất hữu ích để nhóm các phần tử lại với nhau. Cho phép nhóm
+                các phần tử của HTML để  áp dụng các kiểu giống nhau  cho tất cả các phần tử HTML bên trong. <br>
+               - Thẻ < div> có thể chứa bất kì loại văn bản hoặc các phần tử HTML khác, như link kiên kết , hình ảnh, video.
+            </p>
+        </div>
+        <div class="phan2">
+            <h3>2. Thuộc tính</h3>
+            <p>- Thuộc tính là nội dung  thêm vào thẻ mở 1 phần tử có thể sử dụng theo nhiều cách khác nhau từ cung cấp
+                thông tin đến thay đổi kiểu. <br>
+               - Được tạo  từ 2 phần : tên và giá trị của thuộc tính.
+            </p>
+            <p id="vdphan2">
+                VD: <br>
+                 < div id="intro"> <br>
+                     < h1>Introduction< /h1> <br>
+                 < /div>
+            </p>
+        </div>
+        <div class="phan3">
+            <h3>3. Hiển thị văn bản</h3>
+            <p> Muốn hiển thị văn bản có thể sử dụng đoạn văn < p> hoặc khoảng < span>. <br>
+                - Thẻ < span> chứa đoạn văn bản ngắn, có thể tách đoạn văn bản nằm cùng dòng với đoạn văn bản khác.</p>
+            <p id="vdphan3">
+                 VD: < p>< span>Họ và Tên:< /span>Chu Tiến Đạt< /p> <br>
+                 Output: <p><span>Họ và Tên:</span> Chu Tiến Đạt</p>
+            </p>
+        </div>
+        <div class="phan4">
+            <h3>4. Tạo kiểu văn bản và Ngắt dòng</h3>
+            <p> - Thẻ < em> thường sẽ hiển thị dưới dạng nhấn mạnh nghiêng. Và thẻ < strong> thường sẽ hiển thị dưới dạng nhấn mạnh.
+                <br>
+                - Sử dụng thẻ < br> để ngắt dòng trong HTML.</p>
+            <p id="vdphan4">
+                 VD: < p>Thân em < strong>vừa trắng lại vừa tròn< /strong> < br> Bảy nổi ba chìm với < em>nước non.< /em>  <br>
+                 Output: <p>Thân em <strong>vừa trắng lại vừa tròn</strong> <br> Bảy nổi ba chìm với <em>nước non</em>.</p>
+        </div>
+        <div class="phan5">
+            <h3>5. Danh sách không theo thứ tự và danh sách có thứ tự</h3>
+            <p>- Sử dụng thẻ < ul> để tạo danh sách các mục không theo thứ tự cụ thể. <br>
+               - Sử dụng thẻ < ol> để tạo danh sách các mục có số thứ tự đánh số lần lượt hữu ích liệt kê các bước, sắp
+                xếp thứ hạng,... <br>
+               - Sử dụng thẻ < li> vào các mục riêng lẻ.
+            </p>
+            <p id="vdphan5">
+                VD: <span class="ulli">+ Danh sách không theo thứ tự: <br>
+                     < ul> <br>
+                        < li>Limes< /li> <br>
+                        < li>Tortillas< /li> <br>
+                        < li>Chicken< /li> <br>
+                     < /ul> <br>
+                Output: <ul>
+                          <li>Limes</li>
+                          <li>Tortillas</li>
+                          <li>Chicken</li>
+                        </ul></div>
+                      <span class="olli">+ Danh sách theo thứ tự: <br>
+                       < ol> <br>
+                           < li>Limes< /li> <br>
+                           < li>Tortillas< /li> <br>
+                           < li>Chicken< /li> <br>
+                       < /ol> <br>
+                Output: <ol>
+                           <li>Limes</li>
+                           <li>Tortillas</li>
+                           <li>Chicken</li>
+                        </ol></span>
+            </p>
+        </div>
+        <div class="phan6">
+            <h3>6. Hình ảnh và video</h3>
+            <p>- Thẻ < img src="#" alt="Thêm link ảnh vào phần dấu # và tôi sẽ thay thế văn bản để giải thích cho hình
+                ảnh đó"> cho phép thêm hình ảnh vào trang web. <br>
+               - Thuộc tính alt có nghĩa là văn bản thay thế,nó mạng lại ý nghĩa hình ảnh trên trang web. <br>
+               - Thẻ < video> cần phải có thẻ mở và đóng video.
+            </p>
+            <p id="vdphan6">
+                VD: < video src="myVideo.mp4" width="320" height="240" controls> <br>
+                        Video not supported <br>
+                     < /video> <br>
+                Sau thuộc tính src là thuộc tính chiều rộng (width), chiều cao (height) để hiển thị kích thước trong
+                trình duyệt.Thuộc tính điều khiển hướng dẫn trình duyệt bao gồm các điều khiển video cơ bản: tạm dừng,
+                phát và bỏ qua. Văn bản, “Video not supported”, giữa thẻ video mở và đóng sẽ chỉ được hiển thị nếu trình
+                duyệt không thể tải video.
+
+            </p>
+        </div>
+    </article>
+</section>
+<section class="css" id="cssa">
+    <header>
+        <h1>CSS</h1>
+    </header>
+    <img src="images/css.png " alt="CSS" height="320px" width="320px">
+    <article class="thancss">
+        <p>CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các
+            phần tử được tạo ra bởi các ngôn ngữ đánh dấu (HTML)</p>
+        <p>Có 3 cách dùng CSS tạo kiểu cho HTML</p>
+        <ul>
+            <li>Inline Stylesn</li>
+            <li>Internal Stylesheet</li>
+            <li>External Stylesheet</li>
+        </ul>
+        <div class="phan1">
+            <h3>1. Inline</h3>
+            <p>Để tạo kiểu cho HTML có thể sử dụng thuộc tính style trực tiếp vào thẻ mở ,sau khi thêm thuộc tính đó bạn có
+               thể đặt các kiểu thuộc tính đó bằng CSS mà bạn muốn áp dụng cho phần tử đó.</p>
+            <p class="vdphan1">
+               VD: < p style='color: red; font-size: 20px;'>I'm learning to code< /p>
+            </p>
+            <p>Inline là 1 cách nhanh chóng tạo kiểu cho 1 phần tử HTML nhưng hiếm khi được sử dụng khi tạo trang web, nhưng
+               lại có những trường hợp cần tạo kiểu nội tuyến.</p>
+        </div>
+        <div class="phan2">
+            <h3>2. Internal Stylesheet</h3>
+            <p>- Khi sử dụng Internal Stylesheet,  HTML cho phép bạn viết mã CSS trong phần dành riêng của nó với phần tử
+               < style> được lồng vào bên trong phần tử < head></p>
+            <p class="vdphan2">
+               VD: <br>
+               < head> <br>
+               < style> <br>
+                   p { <br>
+                       color: red; <br>
+                       font-size: 20px; <br>
+                   } <br>
+               < /style> <br>
+               < /head> <br>
+            </p>
+        </div>
+        <div class="phan3">
+            <h3>3. External Stylesheet</h3>
+            <p>-Khi HTML và CSS nằm trong các tệp riêng biệt thì các tệp phải được liên kết với nhau. <br>
+               -Sử dụng phần tử < link> để liên kết các tệp HTML và CSS với nhau, phần tử < link> được đặt trong tệp HTML,
+               là 1 thẻ tự đóng và yêu cầu các thuộc tính sau. <br>
+               +href - địa chỉ và đường link dẫn đến tệp <br>
+               +rel  - thuộc tính này mô tả quan hệ giữa tệp HTML và CSS, vì đang liên kết đến 1 biểu định kiểu, nên giá trị
+               phải được đặt thành biểu định kiểu.</p>
+            <p>- Nếu tệp CSS được lưu trữ trong cùng một thư mục với tệp HTML của bạn, thì bạn có thể chỉ định một đường dẫn
+               tương đối thay vì một URL, như sau: <br>
+               <span>< link href='./style.css' rel='stylesheet'></span>
+            </p>
+        </div>
+    </article>
+</section>
+<section class="js" id="jsa">
+    <header>
+        <h1>JavaScrip</h1>
+    </header>
+    <img src="images/js.png" alt="JavaScript" width="320px" height="320px">
+    <article class="thanjs">
+       <p>- JavaScript là một ngôn ngữ lập trình website, được tích hợp và nhúng trong HTML giúp website sống động hơn.<br>
+          - JavaScript cho phép kiểm soát các hành vi của trang web tốt hơn so với khi chỉ sử dụng mỗi HTML. <br>
+          - JavaScript có thể được ứng dụng trong rất nhiều lĩnh vực:
+       </p>
+       <ul>
+           <li>Lập trình website.</li>
+           <li>Xây dựng ứng dụng cho website máy chủ.</li>
+           <li>Ứng dụng di động, app, trò chơi.</li>
+           <li>...</li>
+       </ul>
+       <p>- Ưu điểm của JavaScript</p>
+        <ul>
+            <li>JavaScript là ngôn ngữ lập trình dễ học.</li>
+            <li>Lỗi của JavaScript dễ phát hiện hơn và vì vậy dễ sửa hơn.</li>
+            <li>JavaScript hoạt động trên nhiều trình duyệt, nền tảng.</li>
+            <li>JavaScript giúp website tương tác tốt hơn với khách truy cập.</li>
+            <li>JavaScript nhanh hơn và nhẹ hơn các ngôn ngữ lập trình khác.</li>
+        </ul>
+        <p>- Nhược điểm của JavaScript</p>
+        <ul>
+            <li>Dễ bị khai thác.</li>
+            <li>Có thể được dùng để thực thi mã độc trên máy tính của người dùng.</li>
+            <li>Có thể bị triển khai khác nhau tùy từng thiết bị dẫn đến việc không đồng nhất.</li>
+        </ul>
+    </article>
+</section>
+<footer id="blogera">
+    <div class="bloger" id="blogera">
+        <ul>
+            <li><a href="https://chutiendat2609.blogspot.com/2021/10/html.html"  target="_blank">HTML</a></li>
+            <li><a href="https://chutiendat2609.blogspot.com/2021/10/css.html" target="_blank">CSS</a></li>
+            <li><a href="https://chutiendat2609.blogspot.com/2021/11/javascript.html" target="_blank">JavaScript</a></li>
+        </ul>
+    </div>
+    <div id="clock">
+        <script src="cript.js"></script>
+    </div>
+</footer>
+</body>
+</html>

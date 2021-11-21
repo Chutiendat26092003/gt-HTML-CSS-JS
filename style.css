@@ -1,0 +1,130 @@
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.4em;
+    background-color: #f3ede1;
+    margin: 0px auto;
+    width: 1200px;
+}
+.bamden li{
+    display: inline-block;
+    padding: 10px;
+}
+.bamden a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 50px 110px 0px 110px;
+    color: #333333;
+}
+#thanh ul{
+    position: fixed;
+    border: 1px solid #d3bd8f;
+    background-color: #d3bd8f;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+.bamden a:hover{
+    color: #de6581;
+}
+img{
+    float: left;
+    margin: 0px 25px 20px 0px;
+    border-radius: 160px;
+}
+article{
+    display: block;
+}
+.html h1{
+    color: #1414ce;
+    text-align: center;
+    border: 1px solid #90b4d6;
+    border-radius: 5px;
+    background-color: #90b4d6;
+    padding:5px;
+    width: 66px;
+    margin: 0px auto;
+}
+.css h1{
+    color: #a4880c;
+    text-align: center ;
+    border: 1px solid #e5d695;
+    border-radius: 5px;
+    background-color: #e5d695;
+    padding:5px;
+    width: 48px;
+    margin: 0px auto;
+}
+.js h1{
+    color: #2222d9;
+    text-align: center;
+    border: 1px solid #bad2e8;
+    border-radius: 5px;
+    background-color: #bad2e8;
+    padding:5px;
+    width: 115px;
+    margin: 0px auto;
+}
+.html{
+    border: 1px solid #b1d3fd;
+    background-color: #b1d3fd;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.2em;
+    margin: 70px 30px 30px 30px;
+
+}
+ul {
+    list-style: inside circle;
+    top:20px;
+    left:50px;}
+.css{
+    /*float: left;*/
+    border: 1px solid #e7e0be;
+    background-color: #e7e0be;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.js{
+    /*float: left;*/
+    border: 1px solid #cee3fc;
+    background-color: #cee3fc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+.bloger li{
+    list-style-image: url("images/blog.png");
+}
+.bloger a{
+    color: #4a0659;
+    text-decoration: none;
+    font-size: 17px;
+}
+.bloger a:hover{
+    color: #d27138;
+}
+#clock{
+    text-align: center;
+    width: 70px;
+    color: #c9f1b4;
+    border: 1px solid rgba(8, 7, 38, 0.44);
+    margin: 20px auto;
+    padding: 5px;
+    background-color: rgba(8, 7, 38, 0.44);
+    border-radius: 5px;
+}
+#clock:hover{
+    background-color: rgba(137, 133, 239, 0.44);
+    border: 1px solid rgba(137, 133, 239, 0.44);
+    color: #333333;
+}
+
+
+
+
+
+
+
+

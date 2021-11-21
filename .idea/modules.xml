@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../CSS/CSS-Aptech/CSS More/.idea/CSS More.iml" filepath="$PROJECT_DIR$/../../CSS/CSS-Aptech/CSS More/.idea/CSS More.iml" />
+      <module fileurl="file://D:/Galerie Botanique/.idea/Galerie Botanique.iml" filepath="D:/Galerie Botanique/.idea/Galerie Botanique.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JS/JS-Aptech/.idea/JS-Aptech.iml" filepath="$PROJECT_DIR$/../../JS/JS-Aptech/.idea/JS-Aptech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gt-HTML-CSS-JS.iml" filepath="$PROJECT_DIR$/.idea/gt-HTML-CSS-JS.iml" />
+      <module fileurl="file://D:/yokoskitchen/.idea/yokoskitchen.iml" filepath="D:/yokoskitchen/.idea/yokoskitchen.iml" />
+    </modules>
+  </component>
+</project>
